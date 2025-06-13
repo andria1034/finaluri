@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #000;
+  transition: 0.3s all ease;
+}
+
+.app.dark body {
+  background: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.word-details {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.app.dark .word-details {
+  background: #1e1e1e;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phonetic {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.meaning h3 {
+  margin-top: 10px;
+}
+
+.meaning ul {
+  padding-left: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.dark-toggle {
+  text-align: right;
+  margin-bottom: 10px;
+}
